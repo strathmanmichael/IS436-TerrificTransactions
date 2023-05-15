@@ -10,7 +10,7 @@ $tiname = $_POST['tiname'];
 $tidesc = $_POST['tidesc'];
 
 // database insert SQL code
-$sql = "INSERT INTO `items` (`iid`, `iname`, `idesc`) VALUES ('$tiid', '$tiname', '$tidesc')";
+$sql = "INSERT INTO `items` (`item_id`, `iname`, `idesc`) VALUES ('$tiid', '$tiname', '$tidesc')";
 
 // insert in database 
 $rs = mysqli_query($con, $sql);
